@@ -44,20 +44,6 @@
 
     global.Page = Page;
 })(window);
-
-var intro = new Page('intro');
-var superservices = new Page('superservices');
-
-intro.onload(function() {
-    // Put here code for intro page on load page
-});
-
-intro.request(function(){
-    // Put here code for intro page on click link
-    console.info('Voce clicou no link da pagina INTRO.');
-});
-
-superservices.request(function(){
-    // Put here code for intro page on click link
+click link
     console.info('Voce clicou no link da pagina SUPERSERVIÇOS.');
 })
